@@ -7,6 +7,10 @@ new TypeIt(".profile-intro", {
     loop:false
   }).go();
 
+  var year = document.getElementById("year");
+  var currentYear = new Date().getFullYear();
+  year.innerHTML=currentYear;
+
 
 
   
