@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+     margin: 0;padding: 0;
+     
+animation: content_reveal 0.5s ease-in;
+
+}
+
+.Navbar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position:fixed;
+z-index: 1;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+
+nav{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 0; 
+background-color:#1a1a2e;
+
+
+}
+
+#nav-brand{
+
+font-family: Merienda One, cursive;
+text-decoration: none;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+
+  
+    
+}
+nav .nav-links {
+
+     text-decoration: none;
+     font-family: Ubuntu, sans-serif;
+     font-size: x-large;
+    
+}
+
+.Contact-items{
+    margin : 0 5px;
+}
+nav .nav-links:hover , .Contact-items:hover{
+
+    color: #e94560;
+   
+}
+.Profile{
+    width: 100%;
+height: 100%;
+margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    background-color: #1a1a2e;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+.profile-img{
+    padding: 8%;  
+    text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile-img{
+width: 100%;
+height: auto;
+
+}
+#profile-intro{
+
+    padding: 10%;
+    padding-top: 12%;
+
+}
+.profile-intro{
+    color:whitesmoke;
+    font-size: 6vh;
+    font-family: Ubuntu,sans-serif;
+}
+
+
+#services{
+    padding-top: 100; 
+    height: 100%;
+     width: 100%;
+     background-color:#1a1a2e;
+     
+}
+#services section, #projects section{
+    text-align: center;
+}
+#services section h1,#projects section h1{
+    color: #e94560;
+    font-family:  Merienda One;
+    margin: 30px 0 50px;
+}
+#services main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.services-cards{
+    margin: 15px;
+    padding:2.5%;
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-left:5px solid #e94560 ;
+}
+.services-cards:hover{
+    background-color:#e94560;
+    color: whitesmoke;
+
+}
+.services-cards:hover .service-icons{
+ 
+    color: whitesmoke;
+
+}
+.services-cards .service-icons{
+    color: #e94560;
+
+}
+
+.service-h3{
+    color: white;
+    margin: 20px 0 30px;
+    font-family: Ubuntu;
+}
+
+
+#projects{
+
+    padding-top: 130px; 
+    height: 100%;
+     width: 100%;
+     background-color:#1a1a2e;
+
+}
+
+
+
+
+
+
+
+
+@keyframes content_reveal{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
